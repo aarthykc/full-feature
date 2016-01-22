@@ -1,0 +1,194 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--global',
+1 verbose cli   'mapbox-upload' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.40
+4 verbose cache add [ 'mapbox-upload', null ]
+5 verbose cache add name=undefined spec="mapbox-upload" args=["mapbox-upload",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'mapbox-upload',
+6 verbose parsed url   path: 'mapbox-upload',
+6 verbose parsed url   href: 'mapbox-upload' }
+7 silly lockFile f2af89de-mapbox-upload mapbox-upload
+8 verbose lock mapbox-upload /Users/aarthychandrasekhar/.npm/f2af89de-mapbox-upload.lock
+9 silly lockFile f2af89de-mapbox-upload mapbox-upload
+10 silly lockFile f2af89de-mapbox-upload mapbox-upload
+11 verbose addNamed [ 'mapbox-upload', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 5f833084-mapbox-upload mapbox-upload@
+14 verbose lock mapbox-upload@ /Users/aarthychandrasekhar/.npm/5f833084-mapbox-upload.lock
+15 silly addNameRange { name: 'mapbox-upload', range: '*', hasData: false }
+16 verbose request where is /mapbox-upload
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 95961582822ebb6f
+19 verbose url raw /mapbox-upload
+20 verbose url resolving [ 'https://registry.npmjs.org/', './mapbox-upload' ]
+21 verbose url resolved https://registry.npmjs.org/mapbox-upload
+22 verbose request where is https://registry.npmjs.org/mapbox-upload
+23 info trying registry request attempt 1 at 14:01:26
+24 verbose etag "2AJ4PJYIMUH4VTJQPKP3CE6JN"
+25 http GET https://registry.npmjs.org/mapbox-upload
+26 http 304 https://registry.npmjs.org/mapbox-upload
+27 silly registry.get cb [ 304,
+27 silly registry.get   { date: 'Fri, 22 Jan 2016 08:31:27 GMT',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     'cache-control': 'max-age=300',
+27 silly registry.get     etag: '"2AJ4PJYIMUH4VTJQPKP3CE6JN"',
+27 silly registry.get     age: '73',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'x-served-by': 'cache-sin6925-SIN',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '1',
+27 silly registry.get     'x-timer': 'S1453451487.450676,VS0,VE0',
+27 silly registry.get     vary: 'Accept' } ]
+28 verbose etag https://registry.npmjs.org/mapbox-upload from cache
+29 silly addNameRange number 2 { name: 'mapbox-upload', range: '*', hasData: true }
+30 silly addNameRange versions [ 'mapbox-upload',
+30 silly addNameRange   [ '0.0.1',
+30 silly addNameRange     '0.0.2',
+30 silly addNameRange     '0.0.3',
+30 silly addNameRange     '1.0.0',
+30 silly addNameRange     '1.1.0',
+30 silly addNameRange     '1.1.1',
+30 silly addNameRange     '1.1.2',
+30 silly addNameRange     '1.1.3',
+30 silly addNameRange     '1.1.4',
+30 silly addNameRange     '2.0.0',
+30 silly addNameRange     '3.0.0',
+30 silly addNameRange     '3.1.0',
+30 silly addNameRange     '3.2.0',
+30 silly addNameRange     '4.0.0',
+30 silly addNameRange     '4.1.0',
+30 silly addNameRange     '4.2.0',
+30 silly addNameRange     '4.2.1' ] ]
+31 verbose addNamed [ 'mapbox-upload', '4.2.1' ]
+32 verbose addNamed [ '4.2.1', '4.2.1' ]
+33 silly lockFile c419611f-mapbox-upload-4-2-1 mapbox-upload@4.2.1
+34 verbose lock mapbox-upload@4.2.1 /Users/aarthychandrasekhar/.npm/c419611f-mapbox-upload-4-2-1.lock
+35 silly lockFile c419611f-mapbox-upload-4-2-1 mapbox-upload@4.2.1
+36 silly lockFile c419611f-mapbox-upload-4-2-1 mapbox-upload@4.2.1
+37 silly lockFile 5f833084-mapbox-upload mapbox-upload@
+38 silly lockFile 5f833084-mapbox-upload mapbox-upload@
+39 silly resolved [ { name: 'mapbox-upload',
+39 silly resolved     version: '4.2.1',
+39 silly resolved     main: './index.js',
+39 silly resolved     description: 'Integration with MapBox upload API.',
+39 silly resolved     repository:
+39 silly resolved      { type: 'git',
+39 silly resolved        url: 'git://github.com/mapbox/mapbox-upload.git' },
+39 silly resolved     licenses: [ [Object] ],
+39 silly resolved     dependencies:
+39 silly resolved      { 'aws-sdk': '^2.2.12',
+39 silly resolved        minimist: '^1.1.1',
+39 silly resolved        'progress-stream': '^1.1.1',
+39 silly resolved        request: '^2.55.0' },
+39 silly resolved     devDependencies: { eslint: '^1.7.3', retire: '1.1.x', tape: '^4.0.0' },
+39 silly resolved     scripts:
+39 silly resolved      { pretest: 'eslint index.js test',
+39 silly resolved        test: 'retire -n && tape test/*.test.js' },
+39 silly resolved     bin: { 'mapbox-upload': './bin/upload.js' },
+39 silly resolved     engines: { node: '0.6.x || 0.8.x || 0.10.x' },
+39 silly resolved     gitHead: '2d14a24b9573bfe5a8cd4b9a119b9795f0cfb108',
+39 silly resolved     bugs: { url: 'https://github.com/mapbox/mapbox-upload/issues' },
+39 silly resolved     homepage: 'https://github.com/mapbox/mapbox-upload#readme',
+39 silly resolved     _id: 'mapbox-upload@4.2.1',
+39 silly resolved     _shasum: '6a84b9649bb4227d2bc9cd9e48d46ca7468b0049',
+39 silly resolved     _from: 'mapbox-upload@',
+39 silly resolved     _npmVersion: '2.14.4',
+39 silly resolved     _nodeVersion: '0.10.40',
+39 silly resolved     _npmUser: { name: 'rclark', email: 'ryan.clark.j@gmail.com' },
+39 silly resolved     maintainers:
+39 silly resolved      [ [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object],
+39 silly resolved        [Object] ],
+39 silly resolved     dist:
+39 silly resolved      { shasum: '6a84b9649bb4227d2bc9cd9e48d46ca7468b0049',
+39 silly resolved        tarball: 'http://registry.npmjs.org/mapbox-upload/-/mapbox-upload-4.2.1.tgz' },
+39 silly resolved     directories: {},
+39 silly resolved     _resolved: 'https://registry.npmjs.org/mapbox-upload/-/mapbox-upload-4.2.1.tgz',
+39 silly resolved     readme: 'ERROR: No README data found!' } ]
+40 info install mapbox-upload@4.2.1 into /usr/local/lib
+41 info installOne mapbox-upload@4.2.1
+42 verbose lib/node_modules/mapbox-upload unbuild
+43 verbose tar unpack /Users/aarthychandrasekhar/.npm/mapbox-upload/4.2.1/package.tgz
+44 silly lockFile 23b06e3c-l-lib-node-modules-mapbox-upload tar:///usr/local/lib/node_modules/mapbox-upload
+45 verbose lock tar:///usr/local/lib/node_modules/mapbox-upload /Users/aarthychandrasekhar/.npm/23b06e3c-l-lib-node-modules-mapbox-upload.lock
+46 silly lockFile 0fdb71ff--mapbox-upload-4-2-1-package-tgz tar:///Users/aarthychandrasekhar/.npm/mapbox-upload/4.2.1/package.tgz
+47 verbose lock tar:///Users/aarthychandrasekhar/.npm/mapbox-upload/4.2.1/package.tgz /Users/aarthychandrasekhar/.npm/0fdb71ff--mapbox-upload-4-2-1-package-tgz.lock
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 error Error: EACCES, mkdir '/usr/local/lib/node_modules/mapbox-upload'
+49 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/mapbox-upload']
+49 error   errno: 3,
+49 error   code: 'EACCES',
+49 error   path: '/usr/local/lib/node_modules/mapbox-upload',
+49 error   fstream_type: 'Directory',
+49 error   fstream_path: '/usr/local/lib/node_modules/mapbox-upload',
+49 error   fstream_class: 'DirWriter',
+49 error   fstream_stack:
+49 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+49 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+49 error      'Object.oncomplete (fs.js:108:15)' ] }
+50 error Please try running this command again as root/Administrator.
+51 error System Darwin 14.3.0
+52 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--global" "mapbox-upload"
+53 error cwd /Users/aarthychandrasekhar/full-feature
+54 error node -v v0.10.40
+55 error npm -v 1.4.28
+56 error path /usr/local/lib/node_modules/mapbox-upload
+57 error fstream_path /usr/local/lib/node_modules/mapbox-upload
+58 error fstream_type Directory
+59 error fstream_class DirWriter
+60 error code EACCES
+61 error errno 3
+62 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/mapbox-upload'
+63 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+63 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+63 error fstream_stack Object.oncomplete (fs.js:108:15)
+64 verbose exit [ 3, true ]

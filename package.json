@@ -1,0 +1,18 @@
+{
+  "name": "full-feature",
+  "version": "1.0.0",
+  "description": "full feature extraction for a tag",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "srividya",
+  "license": "ISC",
+  "dependencies": {
+    "mapbox-upload": "^4.2.1",
+    "minimist": "^1.2.0",
+    "path": "^0.12.7",
+    "tile-reduce": "git://github.com/mapbox/tile-reduce.git#5aaf09f9b196f4d5fe0fda9f76884e75b7c37db8",
+    "turf": "^2.0.2"
+  }
+}
